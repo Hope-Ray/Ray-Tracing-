@@ -6,7 +6,7 @@ canvas.height = window.innerHeight;
 
 const lightSource = { x: 100, y: 100, radius: 50 };
 const circleObject = { x: 1500, y: 500, radius: 100 };
-const RAYS_NUMBER = 100; // Reduced for better performance
+const RAYS_NUMBER = 150; // Reduced for better performance
 const rays = [];
 const RAY_COLOR = "white";
 let dragging = false;
